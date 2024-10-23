@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    
+    height: 100vh;
+}
+
+.container{
+    padding: 2rem;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    background: #2d728f;
+    color: #fff;
+    border-bottom: 5px solid #F4B886;
+}
+
+.top ul{
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
