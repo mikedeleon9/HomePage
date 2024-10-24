@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body{
@@ -11,20 +12,47 @@ body{
 }
 
 .container{
-    padding: 2rem;
+    padding: 2rem 6rem;
 }
 
 .top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #2d728f;
     color: #fff;
     border-bottom: 5px solid #F4B886;
+
 }
 
 .top ul{
     list-style: none;
     display: flex;
-    gap: 0.5rem;
+    gap: 1.5rem;
     cursor: pointer;
+}
+
+
+section{
+   
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    color: #F4B886;
+}
+
+
+
+.middle{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+   width: 50%;
+}
+
+.site{
+    height: 150px; 
+    border: 2px solid red;
 }
