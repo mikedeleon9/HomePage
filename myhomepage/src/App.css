@@ -10,4 +10,10 @@
   color: black;
   gap: 1rem;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.site:hover{
+  background: #d9d9d9;
+  opacity: 0.8;
 }
