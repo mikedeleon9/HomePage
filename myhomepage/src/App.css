@@ -2,9 +2,12 @@
   height: 100px;
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  padding-left: 1rem;
   align-items: center;
-  background: linear-gradient(to bottom, #d9d9d9 50%, transparent 50%);
+  background: linear-gradient(to bottom, #d9d9d9 100%, transparent 50%);
   border: 2px solid black;
   color: black;
+  gap: 1rem;
+  font-weight: 500;
 }
