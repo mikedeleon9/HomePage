@@ -10,7 +10,7 @@ export default function Main(){
     return(
         <section>
         <div class="middle container ">
-            <div class="w-1/2 relative grid grid-cols-2 p-12 gap-6 border-4">
+            <div class="w-1/2 relative grid grid-cols-3 p-12 gap-6 border-4">
             <a href="https://www.nytimes.com/games/connections" target="_blank"><div class="site"><img class="photo w-12" src={connections} alt="connections"/>NYT Connections</div></a>
             <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank"><div class="site"><img class="photo w-12" src={wordle} alt="wordle"/>Wordle</div></a>
             <a href="https://www.dailykillersudoku.com/" target="_blank"><div class="site"><img class="photo w-12" src={sudoku} alt="sudoku"/>Daily Killer Sudoku</div></a>
