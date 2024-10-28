@@ -14,7 +14,7 @@ import ChatGPT from "../Images/ChatGPT.png"
 export default function Main(){
     return(
     <section class="flex justify-center p-4">
-        <div class="middle container flex justify-center grid grid-cols-2 ">
+        <div class="middle container  w-1/2 flex flex-col gap-8 ">
             <div class="relative grid grid-cols-3 p-6 gap-6 max-sm:grid-cols-1 border-2 max-lg:grid-cols-3 max-xl:grid-cols-4">
             <a href="https://www.nytimes.com/games/connections" target="_blank"><div class="site"><img class="photo w-12 " src={connections} alt="connections"/>Connections</div></a>
             <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank"><div class="site"><img class="photo w-12" src={wordle} alt="wordle"/>Wordle</div></a>
