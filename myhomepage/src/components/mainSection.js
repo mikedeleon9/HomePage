@@ -14,10 +14,11 @@ import Sidebar from './Sidebar';
 
 export default function Main(){
     return(
-    <section class="flex justify-center p-4">
+    <section class="flex gap-8 px-24 py-8">
+        
         <Sidebar />
         <div class="middle container  w-2/3 flex flex-col  ">
-        <span class="font-bold">Games</span>
+       
             <div class="relative grid grid-cols-3 p-6 gap-6 max-sm:grid-cols-1 border-2 border-customOrange max-lg:grid-cols-2 max-xl:grid-cols-3 mb-10"> 
             <a href="https://www.nytimes.com/games/connections" target="_blank"><div class="site game"><img class="photo w-12 " src={connections} alt="connections"/>Connections</div></a>
             <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank"><div class="site game"><img class="photo w-12" src={wordle} alt="wordle"/>Wordle</div></a>
