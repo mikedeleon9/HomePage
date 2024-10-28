@@ -10,10 +10,12 @@ import Tailwind from "../Images/Tailwind.png"
 import Github from "../Images/Github.png";
 import W3Schools from "../Images/w3Schools.png"
 import ChatGPT from "../Images/ChatGPT.png"
+import Sidebar from './Sidebar';
 
 export default function Main(){
     return(
     <section class="flex justify-center p-4">
+        <Sidebar />
         <div class="middle container  w-2/3 flex flex-col  ">
         <span class="font-bold">Games</span>
             <div class="relative grid grid-cols-3 p-6 gap-6 max-sm:grid-cols-1 border-2 border-customOrange max-lg:grid-cols-2 max-xl:grid-cols-3 mb-10"> 
@@ -24,7 +26,7 @@ export default function Main(){
             <a href="https://www.immaculategrid.com/" target="_blank"><div class="site game"><img class="photo w-12" src={immaculate} alt="immaculate"/>Immaculate Grid</div></a>
             </div>
         <span class="font-bold">Coding</span>
-           <div class="relative grid grid-cols-3 p-6 gap-6 border-2 max-sm:grid-cols-1 border-2 max-lg:grid-cols-3 max-xl:grid-cols-4">
+           <div class="relative grid grid-cols-3 p-6 gap-6 border-2 max-sm:grid-cols-1 border-2 border-customOrange max-lg:grid-cols-3 max-xl:grid-cols-4">
         <a href="https://cssbattle.dev/" target="_blank"><div class="site code"><img class="photo w-12" src={CSSBattle} alt="CSS-Battle"/>CSS Battle</div></a>
             <a href="https://codepen.io/your-work/" target="_blank"><div class="site code"><img class="photo w-12" src={Codepen} alt="codepen"/>Codepen</div></a>
             <a href="https://tailwindcss.com/" target="_blank"><div class="site code"><img class="photo w-12" src={Tailwind} alt="tailwind"/>Tailwind CSS</div></a>
