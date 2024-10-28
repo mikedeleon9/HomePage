@@ -15,22 +15,22 @@ export default function Main(){
     return(
     <section class="flex justify-center p-4">
         <div class="middle container  w-2/3 flex flex-col  ">
-        <span class="">Games</span>
-            <div class="relative grid grid-cols-3 p-6 gap-6 max-sm:grid-cols-1 border-2 max-lg:grid-cols-2 max-xl:grid-cols-3 mb-10"> 
-            <a href="https://www.nytimes.com/games/connections" target="_blank"><div class="site"><img class="photo w-12 " src={connections} alt="connections"/>Connections</div></a>
-            <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank"><div class="site"><img class="photo w-12" src={wordle} alt="wordle"/>Wordle</div></a>
-            <a href="https://www.dailykillersudoku.com/" target="_blank"><div class="site"><img class="photo w-12" src={sudoku} alt="sudoku"/>Daily Killer Sudoku</div></a>
-            <a href="https://www.nytimes.com/crosswords" target="_blank"><div class="site"><img class="photo w-12" src={crossword} alt="crossword"/>NYT Crossword</div></a>
-            <a href="https://www.immaculategrid.com/" target="_blank"><div class="site"><img class="photo w-12" src={immaculate} alt="immaculate"/>Immaculate Grid</div></a>
+        <span class="font-bold">Games</span>
+            <div class="relative grid grid-cols-3 p-6 gap-6 max-sm:grid-cols-1 border-2 border-customOrange max-lg:grid-cols-2 max-xl:grid-cols-3 mb-10"> 
+            <a href="https://www.nytimes.com/games/connections" target="_blank"><div class="site game"><img class="photo w-12 " src={connections} alt="connections"/>Connections</div></a>
+            <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank"><div class="site game"><img class="photo w-12" src={wordle} alt="wordle"/>Wordle</div></a>
+            <a href="https://www.dailykillersudoku.com/" target="_blank"><div class="site game"><img class="photo w-12" src={sudoku} alt="sudoku"/>Daily Killer Sudoku</div></a>
+            <a href="https://www.nytimes.com/crosswords" target="_blank"><div class="site game"><img class="photo w-12" src={crossword} alt="crossword"/>NYT Crossword</div></a>
+            <a href="https://www.immaculategrid.com/" target="_blank"><div class="site game"><img class="photo w-12" src={immaculate} alt="immaculate"/>Immaculate Grid</div></a>
             </div>
-        <span class="">Coding</span>
+        <span class="font-bold">Coding</span>
            <div class="relative grid grid-cols-3 p-6 gap-6 border-2 max-sm:grid-cols-1 border-2 max-lg:grid-cols-3 max-xl:grid-cols-4">
-        <a href="https://cssbattle.dev/" target="_blank"><div class="site"><img class="photo w-12" src={CSSBattle} alt="CSS-Battle"/>CSS Battle</div></a>
-            <a href="https://codepen.io/your-work/" target="_blank"><div class="site"><img class="photo w-12" src={Codepen} alt="codepen"/>Codepen</div></a>
-            <a href="https://tailwindcss.com/" target="_blank"><div class="site"><img class="photo w-12" src={Tailwind} alt="tailwind"/>Tailwind CSS</div></a>
-            <a href="https://github.com/mikedeleon9" target="_blank"><div class="site"><img class="photo w-12" src={Github} alt="Github"/>Github </div></a>
-            <a href="https://www.w3schools.com/" target="_blank"><div class="site"><img class="photo w-12" src={W3Schools} alt="W3Schools"/>W3 Schools</div></a>
-            <a href="https://chatgpt.com/" target="_blank"><div class="site"><img class="photo w-12" src={ChatGPT} alt="ChatGPT"/>ChatGPT </div></a>
+        <a href="https://cssbattle.dev/" target="_blank"><div class="site code"><img class="photo w-12" src={CSSBattle} alt="CSS-Battle"/>CSS Battle</div></a>
+            <a href="https://codepen.io/your-work/" target="_blank"><div class="site code"><img class="photo w-12" src={Codepen} alt="codepen"/>Codepen</div></a>
+            <a href="https://tailwindcss.com/" target="_blank"><div class="site code"><img class="photo w-12" src={Tailwind} alt="tailwind"/>Tailwind CSS</div></a>
+            <a href="https://github.com/mikedeleon9" target="_blank"><div class="site code"><img class="photo w-12" src={Github} alt="Github"/>Github </div></a>
+            <a href="https://www.w3schools.com/" target="_blank"><div class="site code"><img class="photo w-12" src={W3Schools} alt="W3Schools"/>W3 Schools</div></a>
+            <a href="https://chatgpt.com/" target="_blank"><div class="site code"><img class="photo w-12" src={ChatGPT} alt="ChatGPT"/>ChatGPT </div></a>
         </div> 
         </div>
 
