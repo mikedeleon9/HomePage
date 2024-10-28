@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         customBlue: "#233142",
         customOrange: "#F4B886"
+      },
+      fontFamily: {
+        Poppins: ["Poppins", "sans-serif"]
       }
     },
   },
