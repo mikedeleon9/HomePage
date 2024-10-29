@@ -2,15 +2,16 @@
 import './App.css';
 import Header from './components/header';
 
-import Main from './components/mainSection';
+import FavoriteSites from './components/FavoriteSites';
 
 function App() {
   return (
     <div className="App ">
+      
       <Header />
        
           
-          <Main  />
+          <FavoriteSites  />
         </div>
    
   );

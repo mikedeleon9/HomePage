@@ -12,7 +12,7 @@ import W3Schools from "../Images/w3Schools.png"
 import ChatGPT from "../Images/ChatGPT.png"
 import Sidebar from './Sidebar';
 
-export default function Main(){
+export default function FavoriteSites(){
     return(
     <section class="flex gap-8 px-12 py-8 mt-24">
         
