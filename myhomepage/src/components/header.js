@@ -10,7 +10,7 @@ export default function Header(){
             <ul class="links flex gap-4 cursor-pointer">
                 <span class="text-customOrange"><li>Home</li></span>
                 <li>Projects</li>
-                <li>About</li>
+                <li>Favorites</li>
                 <li>Contact Me</li>
             </ul>
         </nav>

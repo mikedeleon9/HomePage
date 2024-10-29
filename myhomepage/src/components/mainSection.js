@@ -14,7 +14,7 @@ import Sidebar from './Sidebar';
 
 export default function Main(){
     return(
-    <section class="flex gap-8 px-24 py-8 mt-24">
+    <section class="flex gap-8 px-12 py-8 mt-24">
         
         <Sidebar />
         <div class="middle container  w-2/3 flex flex-col  ">
